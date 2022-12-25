@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.header {
+    width: 1565px;
+    margin: 60px auto 0 auto;
+    display: flex;
+}
+.header__logo {
+
+}
+.header ul{
+    margin: 0px 0px 0px 130px;
+}
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.header__list-item {
+    font-size: 36px;
+    line-height: 44px;
+
+}
+.container{
+    width: 1565px;
+    margin: 0 auto;
+}
+
+.top__row {
+    display: flex;
+    gap: 140px;
+}
+.top__row-left {
+
+}
+.top-title {
+    font-size: 64px;
+    line-height: 78px;
+    margin: 0px 0px 60px 0px;
+}
+.top-subtitle {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 500;
+    margin: 0px 0px 80px 0px;
+}
+.blur1{
+    position:absolute;
+    z-index: -1;
+}
+.top-btns {
+}
+.top__btn-1 {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 400;
+    color: white;
+    background: #B78D4C;
+    margin: 0px 60px 0px 0px;
+    padding: 30px 55px 30px 50px;
+}
+.top__btn-2 {
+    color: #B78D4C;
+    font-size: 36px;
+    line-height: 48px;
+}
+.top__row-right {
+    position: absolute;
+    right:  3%;
+    bottom: 0%;
+}
+
+/* ================================================================== */
+
+.course__for {
+    margin: 250px 0px 0px 0px;
+}
+.course__title {
+    text-align: center;
+    font-size: 64px;
+    line-height: 78px;
+    margin: 0px 0px 110px 0px;
+}
+.course__row1 {
+    display: flex;
+    border-top: #B78D4C 1px solid;
+    border-bottom:#B78D4C 1px solid ;
+    gap: 175px;
+    justify-content: space-between;
+}
+.course__row1-item {
+    margin: 60px 0px 30px 0px;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    font-weight: 400;
+}
+.course__row1-item:nth-child(2){
+    border-left: #B78D4C  1px solid;
+    border-right: #B78D4C  1px solid;
+    padding: 0px 45px 0px 45px;
+}
+.blur2{
+    position:absolute;
+    z-index: -1;
+    right: 0%;
+    top: 70%;
+}
+.course__row2 {
+    display: flex;
+    border-top: #B78D4C 1px solid;
+    border-bottom:#B78D4C 1px solid ;
+    gap: 130px;
+    justify-content: space-between;
+}
+.course__row2-item {
+    margin: 100px 0px 30px 0px;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    font-weight: 400;
+}
+.course__row2-item:nth-child(1){
+    border-right: #B78D4C  1px solid;
+    padding: 0px 205px 0px 0px;
+}
+.course__row3 {
+    display: flex;
+    border-top: #B78D4C 1px solid;
+    border-bottom:#B78D4C 1px solid ;
+    gap: 200px;
+    justify-content: space-between;
+}
+.course__row3-item {
+    margin: 90px 0px 30px 0px;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    font-weight: 400;
+}
+.course__row3-item:nth-child(1){
+    border-right: #B78D4C  1px solid;
+    padding: 0px 360px 0px 0px;
+}
